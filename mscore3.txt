@@ -3,10 +3,14 @@
       design goals/changes
 ====================================================================
 
+
+
 - Optimize horizontal layout by allowing overlapping segments.
       - Compute an outline (Shape) for every Staff/Segment.
       - Use the outline to compute the minimum distance between Segments.
             - this also avoids collisions between Lyrics and ChordNames
+
+
 
 - Automatically increase vertical space between staves to avoid collisions.
       - Use the segment shapes to compute the minimum distance between staves.
